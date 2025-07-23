@@ -1,0 +1,89 @@
+/* <----------------------------------------- Navigation -----------------------------------------> */
+nav{
+    box-sizing: border-box;
+    flex-direction: column;
+}
+#navbar ul{
+    margin-bottom: 5px;
+    width: 90%;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 5px;
+}
+/* <----------------------------------------- Home -----------------------------------------> */
+#home{
+    height: 400px;
+    padding: 10px 20px;
+}
+#home::before{
+    height: 521px;
+}
+#home p{
+    font-size: 1rem;
+    padding-bottom: 15px;
+}
+#home a {
+    font-size: 1.2rem;
+}
+/* <----------------------------------------- Services -----------------------------------------> */
+#service_container{
+    height: auto;
+}
+#services{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    box-sizing: border-box;
+    height: 40%;
+    width: 90%;
+    max-width: 340px;
+}
+.box p{
+    font-size: .8rem;
+}
+.box img{
+    max-height: 140px;
+    height: 70%;
+    width: auto;
+}
+/* <----------------------------------------- Client -----------------------------------------> */
+#about-section{
+    height: auto;
+}
+#clients{
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+#clients img{
+    box-sizing: border-box;
+    height: 100px;
+    padding: 5px
+}
+/* <----------------------------------------- Contact us -----------------------------------------> */
+#contact-box{
+    padding: 0px 30px;
+}
+#contact-box label{
+    font-size: 1.2rem;
+}
+#contact-box input{
+    width: 50%;
+}
+#contact-box textarea{
+    width: 50%;
+}
+/* <----------------------------------------- Footer -----------------------------------------> */
+footer{
+    font-size: .6rem;
+}
+/*----------------------------------------- Utility Classes -----------------------------------------*/
+.h-primary{
+    font-size: 1.7rem;  
+}
+.h-secondary{
+    font-size: 1.5rem;
+    padding: 8px;
+}
